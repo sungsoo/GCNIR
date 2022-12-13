@@ -3,4 +3,4 @@
 
 ## Overview
 
-The documents and codes will be available soon.
+The source code, data, and/or other artifacts  will be available soon.
