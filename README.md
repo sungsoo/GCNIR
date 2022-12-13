@@ -1,4 +1,4 @@
-# GCNIR: Graph Convolutional Networks using Incremental Reachability
+# GCNIR: Graph Convolutional Networks via Incremental Reachability Convolution
 
 
 ## Overview
