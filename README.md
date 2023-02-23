@@ -53,6 +53,7 @@ Citation Networks: We tune the only hyperparameter, weight decay, with hyperopt 
 See `tuning.py` for more details on hyperparameter optimization.
 
 ```
+$ cd node_classification
 $ python citation.py --dataset cora --tuned --model AORM
 $ python citation.py --dataset citeseer --tuned --epochs 150 --model AORM
 $ python citation.py --dataset pubmed --tuned --model AORM
@@ -60,6 +61,7 @@ $ python citation.py --dataset pubmed --tuned --model AORM
 
 Reddit:
 ```
+$ cd node_classification
 $ python reddit.py --inductive --test --model AORM
 ```
 
@@ -68,6 +70,7 @@ $ python reddit.py --inductive --test --model AORM
 We exploit the [DCRNN model](https://github.com/tsinghua-fib-lab/Traffic-Benchmark/tree/master/methods/DCRNN) to implement the GCNIR for training performance evaluation.
 
 ```
+$ cd traffic_prediction
 $ python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_chunho_saorm.yaml
 $ python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_chunho_laplacian.yaml
 $ python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_chunho_random_walk.yaml
